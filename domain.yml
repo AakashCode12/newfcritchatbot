@@ -1,0 +1,115 @@
+version: "2.0"
+
+intents:
+  - greet
+  - goodbye
+  - affirm
+  - deny
+  - mood_great
+  - mood_unhappy
+  - bot_challenge
+  - subscribe
+  - inform
+  - fee_payment
+  - library
+  - location
+  - login
+  - departments
+  - placement
+  - student_corner
+  - nirf
+  - affiliations
+  - admission
+  - alumini
+  - research_publication
+  - oeuvre_blog
+  - manthan
+  - contact
+
+responses:
+  utter_contact:
+    - text: "The Contact Details 📞 of the College are: \n\n\n 📞 Phone No: (022) 27771000, 27662949, 27660619 \n\n\n 📧 Email Id: principal@fcrit.ac.in"
+      image: "https://fcrit.ac.in/img/fcritlogo.png"
+
+  utter_greet:
+    - text: "Hello👋!! I am a Chatbot. \n\n You can Ask me for page links in the website such as 📑 Newsletter page,📚 Library Login,😃 Fee Payment, etc."
+
+  # utter_greet2:
+  #   - text: ""
+
+  utter_manthan:
+    - text: "The Official Magazine of our college is [Manthan](https://fcrit.ac.in/manthan)"
+
+  utter_oeuvre_blog:
+    - text: "The Official Blog of College is 📑 [OEUVRE](blog.fcrit.ac.in)"
+
+  utter_cheer_up:
+    - text: "Here is something to cheer you up:"
+      image: "https://i.imgur.com/nGF1K8f.jpg"
+
+  utter_did_that_help:
+    - text: "Did that help you?"
+
+  utter_happy:
+    - text: "Great, carry on!"
+
+  utter_goodbye:
+    - text: "Goodbye"
+
+  utter_iamabot:
+    - text: "I am a bot, powered by Three Friends Aakash, Shreya and Akshata."
+
+  # utter_ask_email:
+  # - text: "What is your email address?"
+
+  utter_subscribe:
+    - text: "The Fr.C.R.I.T's Official Newsletter is 📩 [Rhapsody](https://fcrit.ac.in/news_letters)"
+
+  utter_fee_payment:
+    - text: "Please refer the [Fee Payment](https://www.eduqfix.com/PayDirect/#/student/pay/XxoRsO6mfiXGAnQY1R64lGgQcWtw4tYKPWYLPO8nzoGBvtL6DIe+F9YjQMK1keFr/254) Page"
+
+  utter_placement_cell:
+    - text: "You can refer the [Placement Cell](https://fcrit.ac.in/placement_home/) page 🥇"
+
+  utter_alumini:
+    - text: "You can check it out in the 🎓 [Alumini Page](https://fcrit.ac.in/alumni_home)"
+
+  utter_departments:
+    - text: "You can check it out in the 🏢 [Department's Page](https://fcrit.ac.in/dept_summary)"
+
+  utter_nirf:
+    - text: "The NIRF Rankings 🎖️ are [listed here](https://fcrit.ac.in/nirf) "
+
+  utter_affiliations:
+    - text: "Please check the [Affiliations Page](https://fcrit.ac.in/accreditation) for more information "
+
+  utter_library:
+    - text: "The Library Page can be found here 😊 [Library Page](http://library.fcrit.ac.in/) \n\n Happy Reading !!📚"
+
+  utter_location:
+    - text: "Location of Fr.C.R.I.T on Google map 📍 [Location](https://www.google.com/maps/place/Fr.+Conceicao+Rodrigues+Institute+of+Technology/@19.0489532,72.9989492,13z/data=!4m19!1m13!4m12!1m4!2m2!1d73.0759443!2d19.0463218!4e1!1m6!1m2!1s0x3be7c6cae0d8c5ab:0xbbf4481d662ca2d8!2slocation+of+fcrit+vashi!2m2!1d72.9917043!2d19.0755127!3m4!1s0x3be7c6cae0d8c5ab:0xbbf4481d662ca2d8!8m2!3d19.0755127!4d72.991704)\n Happy Journey!!"
+      image: ""
+  utter_research_publication:
+    - text: "Research Page Link is 😃: [Research and Publication](https://fcrit.ac.in/research_publication_home) "
+
+  utter_login:
+    - text: "You can find the login Links Here [Login](https://fcrit.ac.in/redirectportal)"
+
+  utter_studentcorner:
+    - text: "🧑‍🎓 Please check in : [Student Corner](https://fcrit.ac.in/student_corner) "
+
+  utter_admission:
+    - text: "You can check out the details on the 👨‍🎓👩‍🎓 [Admissions Page](https://fcrit.ac.in/admission_home)"
+
+#forms:
+#  newsletter_form:
+#  email:
+#  - type: from_text
+
+#slots:
+# email:
+#   type: text
+
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true
